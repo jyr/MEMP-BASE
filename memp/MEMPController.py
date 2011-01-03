@@ -9,16 +9,27 @@ from Foundation import *
 from AppKit import *
 import objc
 import os
+#from Authorization import Authorization
+#from SecurityFoundation import SFAuthorization as Authorization
 
 class MEMPController(NSWindowController):
-	path = "/Applications/MEMP/init/"
 	
+	def init(self):
+		self = super(MEMPController, self).init()
+		self.path = "sh /Applications/MEMP/init/"
+		#print dir(Authorization)
+		#self.authorizationRef = authorizationRef()
+		return self
+		
 	@objc.IBAction
 	def startServers_(self, sender):
-		print "start servers"
+		#status = Authorization
+		os.system(self.path + "start.sh")
+		print "start servers..."
 	
 	@objc.IBAction
 	def stopServers_(self, sender):
+		os.system(self.path + "stop.sh")
 		print "stop servers"
 	
 	@objc.IBAction
