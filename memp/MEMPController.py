@@ -8,8 +8,11 @@
 from Foundation import *
 from AppKit import *
 from Authorization import Authorization, kAuthorizationFlagDestroyRights
+from PreferencesController import PreferencesController
+
 import objc
 import os
+
 
 class MEMPController (NSWindowController):
     startButton = objc.IBOutlet()
@@ -20,6 +23,7 @@ class MEMPController (NSWindowController):
     stopMySQL = objc.IBOutlet()
     startPHP = objc.IBOutlet()
     stopPHP = objc.IBOutlet()
+    preferences = objc.IBOutlet()
 	
     def init(self):
 		self = super(MEMPController, self).init()
@@ -51,7 +55,7 @@ class MEMPController (NSWindowController):
 	
     @objc.IBAction
     def openPage_(self, sender):
-		urlMEMP = NSURL.URLWithString_("http://localhost")
+		urlMEMP = NSURL.URLWithString_("http://localhost/MEMP/")
 		workspace = NSWorkspace.sharedWorkspace().openURL_(urlMEMP)
 		print "opan memp page"
 	
@@ -103,6 +107,11 @@ class MEMPController (NSWindowController):
 
 		stopPHP = self.path + "stopPHP"
 		self.auth.executeWithPrivileges(stopPHP)
+
+    @objc.IBAction
+    def preferences_(self, sender):
+		PreferencesController.show()
+		#print dir(self.preferences)
 		
     @objc.IBAction
     def exit_(self, sender):
