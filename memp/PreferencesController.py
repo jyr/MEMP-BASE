@@ -7,14 +7,13 @@
 
 from Foundation import *
 from AppKit import *
+
 import objc
+
 class PreferencesController (NSViewController):	
 	def show(self):
-		#print dir(PreferencesController)
 		self.PreferencesController = PreferencesController.alloc().initWithNibName_bundle_("Preferences", None)
-		#print dir(self.PreferencesController)
-		self.PreferencesController.view()
-		self.PreferencesController.retain()
+		self.PreferencesController.view().window().makeKeyAndOrderFront_(self)
 	show = classmethod(show)
 
 
