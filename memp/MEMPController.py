@@ -112,7 +112,6 @@ class MEMPController (NSWindowController):
     @objc.IBAction
     def preferences_(self, sender):
 		PreferencesController.show()
-		#print dir(self.preferences)
 	
     @objc.IBAction
     def showPreferencesWindow_(self, sender):

@@ -275,13 +275,12 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
-									<integer>2</integer>
+									<integer>14</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 292}}</string>
+							<string>{{0, 0}, {186, 621}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -293,14 +292,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {203, 310}}</string>
+						<string>{{0, 0}, {203, 639}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>1 427 1218 351 0 0 1280 778 </string>
+						<string>0 98 1280 680 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -318,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>main.py</string>
+								<string>PreferencesController.py</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,19 +325,19 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>main.py</string>
+										<string>PreferencesController.py</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>4E6AEF9212EB6E6900C7BDB5</string>
+										<string>4E6AEFD012EB8CF300C7BDB5</string>
 										<key>history</key>
 										<array>
 											<string>4EF959CB12D06E5800303C37</string>
 											<string>4ED25D6612D595DF00425881</string>
 											<string>4EDA63D412D6918200FAED6C</string>
-											<string>4E6AEF8B12EB6D8C00C7BDB5</string>
-											<string>4E6AEF9112EB6E6900C7BDB5</string>
-											<string>4E6AEE6E12EB4B6A00C7BDB5</string>
+											<string>4E6AEF9512EB72E700C7BDB5</string>
+											<string>4E6AEFA412EB84D100C7BDB5</string>
+											<string>4E6AEFA512EB84D100C7BDB5</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -350,14 +349,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1010, 238}}</string>
+								<string>{{0, 0}, {1072, 567}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1 427 1218 351 0 0 1280 778 </string>
+								<string>0 98 1280 680 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>238pt</string>
+							<string>567pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -370,9 +369,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 243}, {1010, 67}}</string>
+								<string>{{0, 572}, {1072, 67}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1 427 1218 351 0 0 1280 778 </string>
+								<string>0 98 1280 680 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -381,7 +380,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>1010pt</string>
+					<string>1072pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -544,7 +543,7 @@
 		<string>/Users/jyr/Desarrollo/personal/MEMP-BASE/memp/memp.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>1 427 1218 351 0 0 1280 778 </string>
+	<string>0 98 1280 680 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
