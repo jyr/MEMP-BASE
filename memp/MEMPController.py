@@ -30,6 +30,7 @@ class MEMPController (NSWindowController):
 		self.path = "/Applications/MEMP/init/"
 
 		self.auth = Authorization()
+		#PreferencesController.setSettings("start")
 		return self
 		
     @objc.IBAction
@@ -112,7 +113,17 @@ class MEMPController (NSWindowController):
     def preferences_(self, sender):
 		PreferencesController.show()
 		#print dir(self.preferences)
+	
+    @objc.IBAction
+    def showPreferencesWindow_(self, sender):
+		#if self.preferencesController == None:
+		self.preferencesController = PreferencesController.alloc().init()
+		#print dir(self.preferencesController)
+		#print dir(self.preferencesController.window())
 		
+		self.preferencesController.showWindow_(self)
+		#self.preferencesController.setSettings("start")
+	
     @objc.IBAction
     def exit_(self, sender):
 		self.stopServers_(self)

@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="371"/>
+			<integer value="372"/>
 			<integer value="57"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
@@ -1126,7 +1126,7 @@
 						<object class="NSTabView" id="211761566">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">12</int>
-							<string key="NSFrame">{{13, 58}, {243, 174}}</string>
+							<string key="NSFrame">{{13, 58}, {243, 204}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<object class="NSShadow" key="NSViewShadow">
 								<object class="NSColor" key="NSShadowColor" id="684851576">
@@ -1191,7 +1191,7 @@
 												</object>
 											</object>
 										</object>
-										<string key="NSFrame">{{10, 33}, {223, 128}}</string>
+										<string key="NSFrame">{{10, 33}, {223, 158}}</string>
 										<int key="NSViewLayerContentsRedrawPolicy">2</int>
 									</object>
 									<string key="NSLabel">NGINX</string>
@@ -1256,7 +1256,7 @@
 												</object>
 											</object>
 										</object>
-										<string key="NSFrame">{{10, 33}, {223, 128}}</string>
+										<string key="NSFrame">{{10, 33}, {223, 158}}</string>
 										<int key="NSViewLayerContentsRedrawPolicy">2</int>
 									</object>
 									<string key="NSLabel">MySQL</string>
@@ -1313,7 +1313,7 @@
 												</object>
 											</object>
 										</object>
-										<string key="NSFrame">{{10, 33}, {223, 128}}</string>
+										<string key="NSFrame">{{10, 33}, {223, 158}}</string>
 										<reference key="NSSuperview" ref="211761566"/>
 										<int key="NSViewLayerContentsRedrawPolicy">2</int>
 									</object>
@@ -1434,27 +1434,6 @@
 								<string key="NSContents">Stop Servers</string>
 								<reference key="NSSupport" ref="794371049"/>
 								<reference key="NSControlView" ref="267846386"/>
-								<int key="NSButtonFlags">-2038152961</int>
-								<int key="NSButtonFlags2">163</int>
-								<string key="NSAlternateContents"/>
-								<string key="NSKeyEquivalent"/>
-								<int key="NSPeriodicDelay">400</int>
-								<int key="NSPeriodicInterval">75</int>
-							</object>
-						</object>
-						<object class="NSButton" id="533886793">
-							<reference key="NSNextResponder" ref="439893737"/>
-							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{47, 255}, {174, 25}}</string>
-							<reference key="NSSuperview" ref="439893737"/>
-							<int key="NSViewLayerContentsRedrawPolicy">2</int>
-							<bool key="NSEnabled">YES</bool>
-							<object class="NSButtonCell" key="NSCell" id="966769632">
-								<int key="NSCellFlags">-2080244224</int>
-								<int key="NSCellFlags2">134217728</int>
-								<string key="NSContents">Preferences</string>
-								<reference key="NSSupport" ref="794371049"/>
-								<reference key="NSControlView" ref="533886793"/>
 								<int key="NSButtonFlags">-2038152961</int>
 								<int key="NSButtonFlags2">163</int>
 								<string key="NSAlternateContents"/>
@@ -2113,19 +2092,11 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
-						<string key="label">preferences:</string>
+						<string key="label">showPreferencesWindow:</string>
 						<reference key="source" ref="1032714883"/>
-						<reference key="destination" ref="533886793"/>
+						<reference key="destination" ref="609285721"/>
 					</object>
-					<int key="connectionID">893</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">preferences</string>
-						<reference key="source" ref="1032714883"/>
-						<reference key="destination" ref="533886793"/>
-					</object>
-					<int key="connectionID">896</int>
+					<int key="connectionID">905</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -2719,7 +2690,6 @@
 							<reference ref="868504357"/>
 							<reference ref="267846386"/>
 							<reference ref="211761566"/>
-							<reference ref="533886793"/>
 						</object>
 						<reference key="parent" ref="972006081"/>
 					</object>
@@ -3262,20 +3232,6 @@
 						<reference key="object" ref="870293217"/>
 						<reference key="parent" ref="542398826"/>
 					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">890</int>
-						<reference key="object" ref="533886793"/>
-						<object class="NSMutableArray" key="children">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="966769632"/>
-						</object>
-						<reference key="parent" ref="439893737"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">891</int>
-						<reference key="object" ref="966769632"/>
-						<reference key="parent" ref="533886793"/>
-					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -3541,8 +3497,6 @@
 					<string>82.ImportedFromIB2</string>
 					<string>83.IBPluginDependency</string>
 					<string>83.ImportedFromIB2</string>
-					<string>890.IBPluginDependency</string>
-					<string>891.IBPluginDependency</string>
 					<string>92.IBPluginDependency</string>
 					<string>92.ImportedFromIB2</string>
 				</object>
@@ -3843,8 +3797,6 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 				</object>
 			</object>
@@ -3864,7 +3816,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">896</int>
+			<int key="maxID">905</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -3879,6 +3831,7 @@
 							<string>exit:</string>
 							<string>openPage:</string>
 							<string>preferences:</string>
+							<string>showPreferencesWindow:</string>
 							<string>startMySQL:</string>
 							<string>startNginx:</string>
 							<string>startPHP:</string>
@@ -3901,6 +3854,7 @@
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
+							<string>id</string>
 						</object>
 					</object>
 					<object class="NSMutableDictionary" key="actionInfosByName">
@@ -3910,6 +3864,7 @@
 							<string>exit:</string>
 							<string>openPage:</string>
 							<string>preferences:</string>
+							<string>showPreferencesWindow:</string>
 							<string>startMySQL:</string>
 							<string>startNginx:</string>
 							<string>startPHP:</string>
@@ -3931,6 +3886,10 @@
 							</object>
 							<object class="IBActionInfo">
 								<string key="name">preferences:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">showPreferencesWindow:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
