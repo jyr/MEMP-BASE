@@ -7,6 +7,7 @@
 
 from Foundation import *
 from AppKit import *
+from Authorization import Authorization
 
 import objc
 
@@ -20,6 +21,7 @@ class PreferencesController (NSWindowController):
 
 	def init(self):
 		self.initWithWindowNibName_("Preferences")
+		
 		return self
 	
 	def windowDidLoad(self):

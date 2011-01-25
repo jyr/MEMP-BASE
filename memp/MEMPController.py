@@ -26,12 +26,24 @@ class MEMPController (NSWindowController):
     preferences = objc.IBOutlet()
 	
     def init(self):
-		self = super(MEMPController, self).init()
-		self.path = "/Applications/MEMP/init/"
-
-		self.auth = Authorization()
-		#PreferencesController.setSettings("start")
+		self = super(MEMPController, self).initWithWindowNibName_("MainMenu")
+		if self:
+			self.path = "/Applications/MEMP/init/"
+			self.auth = Authorization()
 		return self
+    
+    #def initWithWindowNibName(self):
+	#	self = super(MEMPController, self).initWithWindowNibName_("MainMenu")
+	#	if self:
+	#		self.path = "/Applications/MEMP/init/"
+	#		self.auth = Authorization()
+		
+	#	return self
+			
+    def windowDidLoad(self):
+		print dir(self)
+		self.checkSettings()
+		print "windowDidLoad"
 		
     @objc.IBAction
     def startServers_(self, sender):
@@ -115,14 +127,37 @@ class MEMPController (NSWindowController):
 	
     @objc.IBAction
     def showPreferencesWindow_(self, sender):
-		#if self.preferencesController == None:
 		self.preferencesController = PreferencesController.alloc().init()
-		#print dir(self.preferencesController)
-		#print dir(self.preferencesController.window())
-		
 		self.preferencesController.showWindow_(self)
-		#self.preferencesController.setSettings("start")
-	
+
+    def checkSettings(self):
+		settings = NSUserDefaults.standardUserDefaults()
+		startMEMP = settings.boolForKey_("start")
+		print "checkSettings"
+		print startMEMP
+		if startMEMP:
+			self.startButton.setHidden_(YES)
+			self.stopButton.setHidden_(NO)
+
+			startScript = self.path + "start"
+			self.auth.executeWithPrivileges(startScript)
+		
+		stopMEMP = settings.boolForKey_("stop")
+		if stopMEMP:
+			self.startMySQL.setHidden_(NO)
+			self.stopMySQL.setHidden_(YES)
+
+			stopMySQL = self.path + "stopMySQL"
+			self.auth.executeWithPrivileges(stopMySQL)
+		
+		openMEMP = settings.boolForKey_("open")
+		if openMEMP:
+			urlMEMP = NSURL.URLWithString_("http://localhost/MEMP/")
+			workspace = NSWorkspace.sharedWorkspace().openURL_(urlMEMP)
+		
+		print "checkSettings"
+		print startMEMP, stopMEMP, openMEMP
+		
     @objc.IBAction
     def exit_(self, sender):
 		self.stopServers_(self)
