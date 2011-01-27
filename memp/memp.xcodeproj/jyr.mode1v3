@@ -282,7 +282,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 621}}</string>
+							<string>{{0, 0}, {186, 321}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -294,14 +294,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {203, 639}}</string>
+						<string>{{0, 0}, {203, 339}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>0 98 1280 680 0 0 1280 778 </string>
+						<string>1 398 1278 380 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -331,7 +331,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>4EBB2F5F12F1337E004CC1A7</string>
+										<string>4EBB2F7612F1572C004CC1A7</string>
 										<key>history</key>
 										<array>
 											<string>4EF959CB12D06E5800303C37</string>
@@ -354,14 +354,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1072, 552}}</string>
+								<string>{{0, 0}, {1070, 252}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 98 1280 680 0 0 1280 778 </string>
+								<string>1 398 1278 380 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>552pt</string>
+							<string>252pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -374,9 +374,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 557}, {1072, 82}}</string>
+								<string>{{0, 257}, {1070, 82}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 98 1280 680 0 0 1280 778 </string>
+								<string>1 398 1278 380 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -385,7 +385,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>1072pt</string>
+					<string>1070pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -540,15 +540,16 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>4EBB2F7712F1572C004CC1A7</string>
 		<string>4EBB2F1B12F12661004CC1A7</string>
 		<string>4EBB2F1C12F12661004CC1A7</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>4EF9599712D014D300303C37</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/jyr/Desarrollo/personal/MEMP-BASE/memp/memp.xcodeproj</string>
+		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
-	<string>0 98 1280 680 0 0 1280 778 </string>
+	<string>1 398 1278 380 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
