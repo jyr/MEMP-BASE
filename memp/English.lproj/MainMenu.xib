@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="372"/>
+			<integer value="371"/>
 			<integer value="57"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
@@ -1747,14 +1747,6 @@
 					<int key="connectionID">370</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="1050"/>
-						<reference key="destination" ref="610635028"/>
-					</object>
-					<int key="connectionID">374</int>
-				</object>
-				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
 						<string key="label">raiseBaseline:</string>
 						<reference key="source" ref="1014"/>
@@ -1941,70 +1933,6 @@
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">startButton</string>
-						<reference key="source" ref="1032714883"/>
-						<reference key="destination" ref="868504357"/>
-					</object>
-					<int key="connectionID">733</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">stopButton</string>
-						<reference key="source" ref="1032714883"/>
-						<reference key="destination" ref="267846386"/>
-					</object>
-					<int key="connectionID">734</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">startNginx</string>
-						<reference key="source" ref="1032714883"/>
-						<reference key="destination" ref="1017567463"/>
-					</object>
-					<int key="connectionID">747</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">stopNginx</string>
-						<reference key="source" ref="1032714883"/>
-						<reference key="destination" ref="693312974"/>
-					</object>
-					<int key="connectionID">748</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">startMySQL</string>
-						<reference key="source" ref="1032714883"/>
-						<reference key="destination" ref="89914643"/>
-					</object>
-					<int key="connectionID">749</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">stopMySQL</string>
-						<reference key="source" ref="1032714883"/>
-						<reference key="destination" ref="189763102"/>
-					</object>
-					<int key="connectionID">750</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">startPHP</string>
-						<reference key="source" ref="1032714883"/>
-						<reference key="destination" ref="1055674044"/>
-					</object>
-					<int key="connectionID">751</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">stopPHP</string>
-						<reference key="source" ref="1032714883"/>
-						<reference key="destination" ref="542398826"/>
-					</object>
-					<int key="connectionID">752</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">startButton</string>
 						<reference key="source" ref="1021"/>
 						<reference key="destination" ref="868504357"/>
 					</object>
@@ -2153,6 +2081,22 @@
 						<reference key="destination" ref="267846386"/>
 					</object>
 					<int key="connectionID">953</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">delegate</string>
+						<reference key="source" ref="1050"/>
+						<reference key="destination" ref="610635028"/>
+					</object>
+					<int key="connectionID">966</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">window</string>
+						<reference key="source" ref="1021"/>
+						<reference key="destination" ref="972006081"/>
+					</object>
+					<int key="connectionID">969</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -2742,10 +2686,10 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="584247396"/>
 							<reference ref="1060297605"/>
-							<reference ref="993229723"/>
 							<reference ref="868504357"/>
 							<reference ref="267846386"/>
 							<reference ref="211761566"/>
+							<reference ref="993229723"/>
 						</object>
 						<reference key="parent" ref="972006081"/>
 					</object>
@@ -3688,10 +3632,10 @@
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{306, 114}, {269, 424}}</string>
+					<string>{{306, 113}, {269, 424}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{306, 114}, {269, 424}}</string>
-					<boolean value="YES"/>
+					<string>{{306, 113}, {269, 424}}</string>
+					<boolean value="NO"/>
 					<string>{{238, 285}, {480, 360}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<real value="0.0"/>
@@ -3872,7 +3816,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">957</int>
+			<int key="maxID">969</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -3995,9 +3939,11 @@
 							<string>stopMySQL</string>
 							<string>stopNginx</string>
 							<string>stopPHP</string>
+							<string>window</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
@@ -4022,6 +3968,7 @@
 							<string>stopMySQL</string>
 							<string>stopNginx</string>
 							<string>stopPHP</string>
+							<string>window</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -4059,6 +4006,10 @@
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">stopPHP</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">window</string>
 								<string key="candidateClassName">id</string>
 							</object>
 						</object>
